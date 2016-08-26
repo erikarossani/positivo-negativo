@@ -3,8 +3,12 @@
     if (n>0){
     	document.write("Positivo");
     }
+    else if (n == 0){
+    	document.write("El numero es cero");
+    }
     else{
-    	document.write("negativo");
+    	document.write("Negativo")
+
     }
 
 
